@@ -13,7 +13,7 @@ import (
 var db *gorm.DB
 
 func StartDB() {
-	str := "host=ec2-34-233-115-14.compute-1.amazonaws.com port=5432 user=wwueqrowenxyjs dbname=users sslmode=disable password=d7fb29481b93549a5c5fc7d3384099f32e37c438b8dcee6e562f0a5b38fac9f6"
+	str := "host=ec2-34-233-115-14.compute-1.amazonaws.com port=5432 user=wwueqrowenxyjs dbname=djus4lp6a277j sslmode=disable password=d7fb29481b93549a5c5fc7d3384099f32e37c438b8dcee6e562f0a5b38fac9f6"
 
 	database, err := gorm.Open(postgres.Open(str), &gorm.Config{})
 	if err != nil {
