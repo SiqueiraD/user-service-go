@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/siqueirad/user-service-go/routes"
+	"github.com/meajudaaqui/user-service/routes"
 )
 
 type Server struct {

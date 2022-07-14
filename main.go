@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/siqueirad/user-service-go/database"
-	"github.com/siqueirad/user-service-go/server"
+	"github.com/meajudaaqui/user-service/database"
+	"github.com/meajudaaqui/user-service/server"
 )
 
 func main() {

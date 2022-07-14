@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/siqueirad/user-service-go/database/migrations"
+	"github.com/meajudaaqui/user-service/database/migrations"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
