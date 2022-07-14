@@ -10,13 +10,13 @@ import (
 
 func ConfigRoutes(router *gin.Engine) *gin.Engine {
 	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://foo.com"},
-		AllowMethods:     []string{"PUT", "PATCH"},
+		AllowOrigins:     []string{"http://localhost:3000"},
+		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH"},
 		AllowHeaders:     []string{"Origin"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
 		AllowOriginFunc: func(origin string) bool {
-			return origin == "https://github.com"
+			return origin == "https://meajudaaqui.github.io/"
 		},
 		MaxAge: 12 * time.Hour,
 	}))
