@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/meajudaaqui/user-service/database"
-	"github.com/meajudaaqui/user-service/models"
-	"github.com/meajudaaqui/user-service/services"
+	"github.com/siqueirad/user-service-go/database"
+	"github.com/siqueirad/user-service-go/models"
+	"github.com/siqueirad/user-service-go/services"
 )
 
 func Autenticar(c *gin.Context) {

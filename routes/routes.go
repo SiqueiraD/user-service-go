@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/meajudaaqui/user-service/controllers"
+	"github.com/siqueirad/user-service-go/controllers"
 )
 
 func ConfigRoutes(router *gin.Engine) *gin.Engine {

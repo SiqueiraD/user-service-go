@@ -1,4 +1,4 @@
-module github.com/meajudaaqui/user-service
+module github.com/siqueirad/user-service-go
 
 go 1.18
 

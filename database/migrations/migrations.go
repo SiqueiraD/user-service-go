@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/meajudaaqui/user-service/models"
+	"github.com/siqueirad/user-service-go/models"
 	"gorm.io/gorm"
 )
 
